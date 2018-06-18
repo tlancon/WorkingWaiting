@@ -3,7 +3,7 @@
 import os
 import sys
 import time
-from PyQt5 import QtCore, QtWidgets, uic  # QtGui
+from PyQt5 import QtWidgets, uic
 
 qtCreatorFile = os.path.abspath('workingwaiting.ui')
 
