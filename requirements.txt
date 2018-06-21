@@ -1,0 +1,4 @@
+PyQt5
+pip
+setuptools
+sip
