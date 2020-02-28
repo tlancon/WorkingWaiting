@@ -79,7 +79,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.updateStats('Stopped')
 
     def updateStats(self, status):
-        if self.intervalCounter is not 0:
+        if self.intervalCounter != 0:
             self.outputWindow.append('Total Working: {}'.format(self.workingTotal))
             self.outputWindow.append('Total Waiting: {}'.format(self.waitingTotal))
         self.intervalCounter += 1
