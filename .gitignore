@@ -6,10 +6,20 @@ __pycache__/
 # C extensions
 *.so
 
-# User-specific
-.idea
+# User-specific stuff:
 .idea/workspace.xml
-.idea/WorkingWaiting.iml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
 
 # Distribution / packaging
 .Python
