@@ -100,46 +100,4 @@
     <MESSAGE value="Copied code/ui from previous project into this venv" />
     <option name="LAST_COMMIT_MESSAGE" value="Copied code/ui from previous project into this venv" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582913637377">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="414" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582913637377" />
-    <state x="740" y="244" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1582912337832">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="740" y="244" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582912337832" />
-    <state x="623" y="134" key="CommitChangelistDialog2" timestamp="1582913848016">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="623" y="134" key="CommitChangelistDialog2/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582913848016" />
-    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1582913616145">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582913616145" />
-    <state width="1899" height="294" key="GridCell.Tab.0.bottom" timestamp="1582913707106">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582913707106" />
-    <state width="1899" height="294" key="GridCell.Tab.0.center" timestamp="1582913707106">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="294" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582913707106" />
-    <state width="1899" height="294" key="GridCell.Tab.0.left" timestamp="1582913707105">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="294" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582913707105" />
-    <state width="1899" height="294" key="GridCell.Tab.0.right" timestamp="1582913707106">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="294" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582913707106" />
-    <state x="461" y="182" key="SettingsEditor" timestamp="1582913227882">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="461" y="182" key="SettingsEditor/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582913227882" />
-    <state x="656" y="363" key="com.intellij.ide.util.TipDialog" timestamp="1582913171379">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="656" y="363" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1582913171379" />
-  </component>
 </project>
