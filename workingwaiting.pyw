@@ -17,12 +17,12 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.workingSeconds = 0
         self.workingTotal = 0
         self.workingTimer = QtCore.QTimer()
-        self.workingTimer.timeout.connect(self.workingCounter)
+        self.workingTimer.timeout.connect(self.working_counter)
 
         self.waitingSeconds = 0
         self.waitingTotal = 0
         self.waitingTimer = QtCore.QTimer()
-        self.waitingTimer.timeout.connect(self.waitingCounter)
+        self.waitingTimer.timeout.connect(self.waiting_counter)
 
         self.workingButton.clicked.connect(self.work)
         self.waitingButton.clicked.connect(self.wait)
@@ -36,13 +36,13 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
 
         self.reset()
 
-    def workingCounter(self):
+    def working_counter(self):
         self.workingSeconds += 1
         self.workingTotal += 1
         self.currentWorkingValue.setText(str(self.workingSeconds))
         self.totalWorkingValue.setText(str(self.workingTotal))
 
-    def waitingCounter(self):
+    def waiting_counter(self):
         self.waitingSeconds += 1
         self.waitingTotal += 1
         self.currentWaitingValue.setText(str(self.waitingSeconds))
@@ -56,7 +56,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.workingButton.setEnabled(False)
         self.waitingButton.setEnabled(True)
         self.stopButton.setEnabled(True)
-        self.updateStats('Working')
+        self.update_stats('Working')
 
     def wait(self):
         self.workingTimer.stop()
@@ -66,7 +66,7 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.waitingButton.setEnabled(False)
         self.workingButton.setEnabled(True)
         self.stopButton.setEnabled(True)
-        self.updateStats('Waiting')
+        self.update_stats('Waiting')
 
     def stop(self):
         self.workingTimer.stop()
@@ -74,9 +74,9 @@ class MyApp(QtWidgets.QMainWindow, Ui_MainWindow):
         self.workingButton.setEnabled(True)
         self.waitingButton.setEnabled(True)
         self.resetButton.setEnabled(True)
-        self.updateStats('Stopped')
+        self.update_stats('Stopped')
 
-    def updateStats(self, status):
+    def update_stats(self, status):
         if self.intervalCounter != 0:
             self.outputWindow.append('Total Working: {}'.format(self.workingTotal))
             self.outputWindow.append('Total Waiting: {}'.format(self.waitingTotal))
