@@ -1,9 +1,7 @@
-#!C:\Users\tlancon\Documents\FILES\Library\Tools\WorkingWaiting\venv\Scripts\pythonw.exe
-
 import os
 import sys
 import time
-from PyQt5 import QtCore, QtWidgets, uic
+from PyQt6 import QtCore, QtWidgets, uic
 
 qtCreatorFile = os.path.abspath('workingwaiting.ui')
 
@@ -107,4 +105,4 @@ if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     window = MyApp()
     window.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())

@@ -7,6 +7,7 @@ __pycache__/
 *.so
 
 # User-specific
+.idea/
 .idea/workspace.xml
 .idea/WorkingWaiting.iml
 
